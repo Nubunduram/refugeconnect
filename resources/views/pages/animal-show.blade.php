@@ -3,7 +3,7 @@
 @section('title', $animal->name)
 
 @section('content')
-<h2>{{ $animal->name }}</h2>
+<h1>{{ $animal->name }}</h1>
 <div class="card">
     <img src="{{ asset('images/animaux/' . $animal->photo) }}" alt="{{ $animal->name }}">
 

@@ -24,7 +24,7 @@ body {
     flex-direction: column;
 }
 
-main {
+main, header {
     width: 100%;
     max-width: 1024px;
     margin: 0 auto;
@@ -42,8 +42,8 @@ header {
     align-items: center;
 }
 
-header>h1 {
-    color: #52c9ff;
+header>img {
+    width: 200px;
 }
 
 header>nav {
@@ -52,7 +52,7 @@ header>nav {
 }
 
 /* Liste des animaux */
-h2 {
+h1 {
     text-align: center;
     font-size: 3em;
     font-weight: 900;
@@ -71,7 +71,7 @@ article {
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
 
-article>h3 {
+article>h2 {
     font-size: 1.5em;
     font-weight: 900;
 }
