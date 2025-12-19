@@ -14,4 +14,3 @@
         <a href="{{ route('animals.delete', $animal->id) }}">Supprimer</a>
     </nav>
 </article>
-<hr>

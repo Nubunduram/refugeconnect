@@ -1,6 +1,8 @@
-@import 'tailwindcss';
 /* Police Google Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+@import 'tailwindcss';
 
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
@@ -60,7 +62,8 @@ h1 {
 }
 
 section {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 8px;
 }
 
